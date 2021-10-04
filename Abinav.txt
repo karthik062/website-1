@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abinav's Store</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <a href="">
+              <b>Abinav's Store</b></a>
+          </div>
+          <nav>
+            <ul id="MenuItems">
+              <li><a href="">Home</a></li>
+              <li><a href="">Products</a></li>
+              <li><a href="">Checkout</a></li>
+            </ul>
+          </nav>
+          <a href="">
+            <img src="images/cart.png" width="30px" height="30px"/>
+          </a>
+        </div>
+        <div class="row">
+          <div class="col-2">
+            <h1>
+              ABINAV INTRODUCES YOU TO<br>
+              "VIRAT'S KINGDOM"
+            </h1>
+            <p>
+              Enjoy the world through<br><b>Virat kohli's</b> Eye
+            </p>
+          </div>
+          <div class="col-2">
+            <img src="images/001.jpg" height="500px" width="300px" class="imgabinav"/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="small-container">
+      <h2 class="title">Cricket Accessories</h2>
+      <div class="row">
+        <div class="col-4">
+          <a href="product-details.html">
+            <img src="images/002.jpg" alt=""
+          /></a>
+          <h4>MRF Bats</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <p>&#8377; 7000.50</p>
+        </div>
+
+        <div class="col-4">
+          <img src="images/003.jpg" alt="" />
+          <h4>Nike Shoes</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>&#8377; 3000.75</p>
+        </div>
+
+        <div class="col-4">
+          <img src="images/004.webp" alt="" />
+          <h4>MRF Pads</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>&#8377; 1999.99</p>
+        </div>
+        <div class="col-4">
+          <img src="images/005.webp" alt="" />
+          <h4>SHREY Helmets</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>&#8377; 3000.49</p>
+        </div>
+      </div>
+      <h2 class="title">Latest Products</h2>
+      <div class="row">
+        
+
+        <div class="col-4">
+          <img src="images/006.jpg" alt="" />
+          <h4>MRF Gloves</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>&#8377; 2500.20</p>
+        </div>
+
+        <div class="col-4">
+          <img src="images/007.png" alt="" />
+          <h4>MOONWALKER Thigh Pads</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>&#8377; 1500.00</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="offer">
+      <div class="small-container">
+        <div class="row">
+            <img src="images/010.webp" class="offer-img" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div class="brands">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-5">
+            <img src="images/011.png" alt="" />
+          </div>
+          <div class="col-5">
+            <img src="images/012.jpg" alt="" />
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Download Our App</h3>
+            
+            <div class="app-logo">
+
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <img src="images/play-store.png" alt="" />
+          </div>
+          <div class="footer-col-2">
+            <img src="images/app-store.png" alt="" />            
+          </div>
+
+          
+        </div>
+        <hr />
+        <p class="copyright">Copyright 1901001 - Abinav</p>
+      </div>
+    </div>
+  </body>
+</html>
